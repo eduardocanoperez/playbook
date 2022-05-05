@@ -5,11 +5,10 @@ class UserService {
         return new User(id, userName, name, "Sin bio")
     }
 
-    static user([]){
-        return new userInfoList([1, 2, 3, 4])
+    static getInfo(user) {
+        return Object.values(user)
     }
 
-    
 }
 
 module.exports = UserService

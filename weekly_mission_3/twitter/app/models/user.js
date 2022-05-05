@@ -1,18 +1,14 @@
 class User {
 
-    constructor(id, userName, name, bio, userInfo) {
+    constructor(id, userName, name, bio) {
 
-        this.info = userInfo
         this.id = id
         this.userName = userName
         this.name = name
         this.bio = bio
+        
         this.dateCreated = new Date()
         this.lastUpdated = new Date()
-    }
-
-    get getInfo() {
-        return this.info
     }
 
     get getUsername() {

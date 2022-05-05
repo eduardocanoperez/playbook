@@ -2,7 +2,7 @@ const User = require('./../../app/models/user')
 
 describe("Unit Test fot User class", () => {
 
-    test('Create an User object', () => {
+    test('1. Create an User object', () => {
         //codigo que usaremos en la app
         const user = new User(1, "eduardocano", "eduardo cano", "Bio")
 
@@ -12,11 +12,17 @@ describe("Unit Test fot User class", () => {
         expect(user.userName).toBe("eduardocano")
         expect(user.name).toBe("eduardo cano")
         expect(user.bio).toBe("Bio")
-        expect(user.dateCreated).not.toBeUndefined()
-        expect(user.lastUpdated).not.toBeUndefined()
+        
     })
 
-    test('add getters', () => {
+    test('2. fechas en atributos users', () => {
+        const user = new User(1, "eduardocano", "eduardo cano", "Bio")
+        expect(user.dateCreated).not.toBeUndefined()
+        expect(user.lastUpdated).not.toBeUndefined()
+
+    })
+
+    test('3. add getters', () => {
 
         const user = new User(1, "eduardocano", "eduardo cano", "Bio")
         expect(user.getUsername).toBe("eduardocano")
@@ -25,7 +31,7 @@ describe("Unit Test fot User class", () => {
         expect(user.getLastUpdated).not.toBeUndefined()
     })
 
-    test('add setters', () => {
+    test('4. add setters', () => {
         const user = new User(1, "eduardocano", "eduardo cano", "Bio")
         user.setUsername = "eduardo"
         expect(user.username).toBe("eduardo")
