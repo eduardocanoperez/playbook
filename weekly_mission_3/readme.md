@@ -1,6 +1,11 @@
 # Weekly Mission 3
-1 escribe la prueba de unidad describiendo la funcionlaidad que nesecitas.
 
-2 escribe el codigo que nesecitas para que tu codigo pase.
+Proyectos desarrollados en la semana 3:
 
-3 refactoriza tu codigo.
+| Proyecto | Práctica | Link al repo |
+| ------------- |:-------------:| -----:|
+|`my_launchx_app`|1|[Link al repo](https://github.com/eduardocanoperez/playbook/tree/main/weekly_mission_3/content/my_first_js_project)|
+|`spiderverse`|2|[Link al repo](https://github.com/eduardocanoperez/playbook/tree/main/weekly_mission_3/spiderverse)|
+|`twitter`|3, 4, 5|[Link al repo](https://github.com/eduardocanoperez/playbook/tree/main/weekly_mission_3/twitter)|
+|`express_basic`|6|[Link al repo](https://github.com/eduardocanoperez/playbook/tree/main/weekly_mission_3/expres_basic)|
+|`express_api`|7|[Link al repo](https://github.com/eduardocanoperez/playbook/tree/main/weekly_mission_3/express_api)|
